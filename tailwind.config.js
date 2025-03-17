@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -8,7 +9,7 @@ export default {
         // secondary: '#000000',
         konoBlue: '#0087FF',
         konoRed: '#FF0043',
-        konoBreen: '#00C870',
+        konoGreen: '#00C870',
         toastBg: '#7E838A',
         // grayBgText: '#475A6B',
         mainText: '#151F2A',

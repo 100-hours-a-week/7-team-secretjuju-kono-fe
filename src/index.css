@@ -32,9 +32,9 @@ body {
   min-width: 430px;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   @apply mx-auto flex flex-col;
-  @apply bg-bg text-mainText;
+  @apply bg-gray-100 text-mainText;
 }
 
 #root {
